@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dog Adoption Agency</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Find Your Furry Friend</h1>
+            <p>Our aim is to match you with the right type of dog.</p>
+        <br>
+    </header>
+    
+    <main>
+        <section>
+            <h2>About Us</h2>
+                <article>
+                    <h3>Vision</h3>
+                    <p>Our vision is a world in which every dog finds a loving home and people can discover their perfect animal companion.</p>
+                </article>
+                <article>
+                    <h3>Mission</h3>
+                    <p>We bring people and dogs together by creating a platform that promotes trust, transparency and care - for a happy future for people and animals.</p>
+                </article>
+        </section>
+
+        <section>
+            <h2>Why Adopt From Us?</h2>
+                <img 
+                    src="https://placedog.net/500/280" 
+                    alt="Dog1"> 
+                <img 
+                    src="https://placedog.net/500/210" 
+                    alt="Dog2">
+                <img 
+                    src="https://placedog.net/500/360" 
+                    alt="Dog3">
+        </section>
+
+        <section>
+            <h2>Get In Touch </h2>
+            <form>
+                <label for="email">Enter your email address:</label>
+                <br>
+                <input 
+                    type="email" 
+                    id="email" 
+                    size="30" 
+                    placeholder="john.doe@example.com" 
+                    required/>
+                <br>
+                <br>
+                <label 
+                    for="message">Please leave a message to us:
+                </label>
+                <br>
+                <textarea 
+                    name="text" 
+                    id="message" 
+                    rows="5" 
+                    cols="50" 
+                    required>
+                </textarea>
+                <br>
+                <br>
+                <button 
+                    type="submit">Submit
+                </button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2024 Dog Adoption Agency.</p>
+    </footer>
+
+</body>
+
+</html>
